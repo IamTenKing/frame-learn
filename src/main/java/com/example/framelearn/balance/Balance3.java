@@ -51,7 +51,7 @@ public class Balance3 {
 
         //随机生成数
 
-
+        //seed是所有权重的总和
         int tmp = random.nextInt(seed);
 
         int total =0;
