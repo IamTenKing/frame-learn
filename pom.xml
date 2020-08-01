@@ -58,6 +58,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+            <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>3.3.6</version>
+            </dependency>
+
 
 
         <!--<dependency>-->
