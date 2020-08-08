@@ -19,7 +19,7 @@ public class PasswordPolicyManager {
 
 
 
-    @PostConstruct
+        @PostConstruct
     public void init() {
         //加载所有PasswordStrategy.class接口的实现类，可以实现类似spi的配置式插件化注入
         Map<String, PasswordStrategy> passwordStrategyMap = this.context.getBeansOfType(PasswordStrategy.class);

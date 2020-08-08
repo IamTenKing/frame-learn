@@ -14,7 +14,7 @@ public class Test {
 //        Class<?> aClass = Class.forName("com.example.framelearn.classloader.Pojo");
         //loadclass只执行类加载过程中的第一不 load
         //完整的类加载过程也只是跟静态变量打交道
-//        Class<?> aClass = Test.class.getClassLoader().loadClass("com.example.framelearn.classloader.Pojo");
+//        Class<?> aClass = Test1.class.getClassLoader().loadClass("com.example.framelearn.classloader.Pojo");
 
 
         Class<?> aClass = Class.forName("com.example.framelearn.classloader.Pojo");
