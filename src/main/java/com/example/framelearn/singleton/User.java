@@ -1,6 +1,8 @@
 package com.example.framelearn.singleton;
 
 /**
+ *
+ * 枚举类单例实现1
  * @author jt
  * @date 2020-8-2
  */
@@ -13,7 +15,7 @@ public class User {
             //创建一个枚举对象，该对象天生为单例
             INSTANCE;
             private User user;
-            //私有化枚举的构造函数
+            //私有化枚举的构造函数，在构造方法中初始化单例对象
             private SingletonEnum(){
                 user=new User();
             }
