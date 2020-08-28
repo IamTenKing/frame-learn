@@ -159,6 +159,26 @@
             <artifactId>converter-gson</artifactId>
             <version>2.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.gitlab4j</groupId>
+            <artifactId>gitlab4j-api</artifactId>
+            <version>4.15.6</version>
+        </dependency>
+        <!-- Spock依赖 -->
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+            <version>1.2-groovy-2.4</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Spock需要的groovy依赖 -->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>2.4.15</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

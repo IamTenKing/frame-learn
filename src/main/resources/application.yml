@@ -13,7 +13,7 @@ spring:
     settings:
       number_format: '0.##'   #数字格式化，无小数点
 server:
-  port: 8088
+  port: 80
 
 
 
