@@ -24,6 +24,14 @@ public class TestController
         //返回值为null的时候抛出异常
         ShopBean helloworld = new ShopBean(1, "helloworld");
 
+
+
+
+
+
+
+
+
         return helloworld;
 //        return Optional.ofNullable(new ShopBean(1,"helloworld"))
 //                .map(target -> new ResponseEntity<>( target, HttpStatus.OK))

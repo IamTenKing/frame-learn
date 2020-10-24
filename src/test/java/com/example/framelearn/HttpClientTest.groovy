@@ -66,7 +66,7 @@ class HttpClientTest extends Specification {
 
         where:
         field     | value
-        "code"    | 201
+        "code"    | 200
         "message" | "success"
         "total"   | 1200
 
